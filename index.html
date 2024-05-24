@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>DiegoArturoMG</title>  
+    <title>Diego Arturo MG</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
-    <link rel="icon" href="images/icon.png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,11 +38,8 @@
 
     <!-- LOADER -->
     <div id="preloader">
-        <div class="loader">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
+        <div id="main-ld">
+			<div id="loader"></div>  
 		</div>
     </div><!-- end loader -->
     <!-- END LOADER -->
@@ -50,12 +47,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-			<h1>Diego Arturo Morales Gonz&aacute;lez</h1>
-			<!---<img class="img-fluid" src="images/logo.png" alt="" />--->
-		</a>
+        <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<img class="img-fluid" src="images/logo.png" alt="" />
+		</a>-->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          
+          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -67,17 +63,23 @@
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
-            </li>
-            <!---<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
-            </li>--->
-			<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#blog">Projects</a>
+                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              </li>
+            <!--<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#certifications">Certifications/Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+            </li>-->
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
             </li>
@@ -86,259 +88,242 @@
       </div>
     </nav>
 	
-	<div id="home" class="ct-header ct-header--slider ct-slick-custom-dots">
-		<div class="ct-slick-homepage" data-arrows="true" data-autoplay="false">
+	<section id="home" class="main-banner parallaxie" style="background: url('images/me-tw.jpg')">
+		<div class="heading">
+			<h1>&lt;Hello World/&gt;</h1> 
+            <h1>I'm Diego Arturo MG</h1>
+            <p>An enthusiastic engineer who loves to create and innovate systems.</p>
+			<h3 class="cd-headline clip is-full-width">
+				<span>Senior Sofware Engineer && </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">Leader</b>
+					<b>Motivator</b>
+                    <b>Creative</b>
+                    <b>Attentive to details</b>
+                    <b>Strategic thinker</b>
+                    <b>Communicator </b>
+				</span>
+			</h3>
+		</div>
+	</section>
 
-			<!---<div class="ct-header tablex item" data-background="uploads/banner-01.jpg">
-				<div class="ct-u-display-tablex">
-					<div class="inner">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-8 col-lg-8 slider-inner">
-									<h1 class="big animated">Hello I'm Web Designer</h1>
-									<p class="animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis massa bibendum sodales rhoncus.</p>
-									<a class="btn-new from-middle animated" href="#">Download cv</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="ct-header tablex item" data-background="uploads/banner-01.jpg">
-				<div class="ct-u-display-tablex">
-					<div class="inner">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-8 col-lg-8 slider-inner">
-									<h1 class="big animated">Hello I'm Ux/Ui Designer</h1>
-									<p class="animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis massa bibendum sodales rhoncus.</p>
-									<a class="btn-new from-middle animated" href="#">Download cv</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>--->
-
-			<div class="ct-header tablex item" data-background="images/wallpaper_3.jpg">
-				<div class="ct-u-display-tablex">
-					<div class="inner">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-8 col-lg-8 slider-inner">
-									<h1 class="big animated" style="margin-bottom: -5%;">&lt; Hello World /&gt;</h1>
-									<h1 class="big animated">I'm a Computer Systems Engineer & Software Developer</h1>
-									<p class="animated">An enthusiastic engineer who loves create and innovate
-										systems as well.</p>
-										<a class="btn-new from-middle animated" href="./documents/CV_DiegoMorales.pdf" download="CV_ArturoMorales" target="_blank">Download cv</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div><!-- .ct-slick-homepage -->
-	</div><!-- .ct-header --> 
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
 
     <div id="about" class="section wb">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="message-box" style="text-align: justify;">                        
-                        <h2>How's it going? I'm Arturo</h2>
-						<p>I'm a person who loves to travel around the world and socializing. I had the opportunity to visit Taiwan as an exchange student.
-							Forming friendships with people from different countries from all the continents.<br/>
-							Curious by nature, so I like to solve problems using software or hardware technology.<br/>
+                        <h2>About Me.</h2>
+                        <p>I'm a person who loves to travel around the world and socializing. I had the opportunity to visit Taiwan as an exchange student.
+							Forming friendships with people from different countries from all the continents.
+							Curious by nature, so I like to solve problems using software or hardware technology.
 							A team player with excellent communication skills and academic awards from my institution.
-							Easy going by nature and able to get along with both developers and project managers.<br/>
-							Another point worth highlighting, I'm a great animal lover :D 
-							</p>
-						
-						<ul>
-							<li><b>Follow Me</b></li>
-							<li><a href="https://github.com/DiegoArturoMG" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/diegoarturomg/" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<!--<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
-							<!---<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>--->
-							<!---<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>--->
-							<!---<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>--->
-							<!--<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>-->
-							<li><a href="https://app.codesignal.com/profile/diegoarturomg" title="CodeSignal"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.hackerrank.com/DiegoArturoMG" title="Hackerrank"><i class="fa fa-file-code-o" aria-hidden="true"></i></a></li>
-						</ul>
+							Easy going by nature and able to get along with both developers and project managers.
+							Another point worth highlighting, I'm a great animal lover :D </p>
 
-						<!--<a class="btn-new from-middle animated" href="./documents/CV_DiegoMorales.pdf" download="CV_ArturoMorales" target="_blank">Download cv</a>-->
-					</div><!-- end messagebox -->
-				</div><!-- end col -->
+                        <a href="documents/CV_DiegoMorales.pdf" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+                    </div>
+                </div>
 
-				<div class="col-md-6">
-						<div class="right-box-pro wow fadeIn" style="text-align: center;">
-							<img src="images/perfil_user.PNG" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
-						</div><!-- end media -->
-				</div><!-- end col -->
-			</div><!-- end row -->
-		</div><!-- end container -->
-	</div><!-- end section -->
+                <div class="col-md-4">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="images/my-profile.jpg" alt="" class="img-fluid img-rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
-    <div id="services" class="section lb">
+    <div id="experience" class="section lb">
         <div class="container">
-            <div class="section-title text-center">
-                <h3>Take your time to check my Skills</h3>
-                <!--<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>-->
-            </div><!-- end title -->
+            <div class="section-title text-left">
+                <h3>Experience</h3>
+            </div>
 
             <div class="row">
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/leadership.svg" width="60%">
-						</div>
-						<h2>Motivator & Leader</h2>
-						<p></p>
+				<div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>Senior Software Engineer</h2>
+                        <p>April 2021 - Present</p>
+						<p>Java · Spring Boot · JavaScript · Microservices · JUnit · Oracle Database · PL/SQL · SQL · NoSQL · Elastic Stack (ELK) · OpenSearch · YAML · Docker · Kubernetes · Oracle Cloud Infrastructure (OCI) · Terraform · Jenkins · Artifactory · JFrog · Grafana · Prometheus · Apache Kafka · Figma · Oracle JavaScript Extension Toolkit (OJET) · HTML · CSS · Git</p>
 					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/strategic.svg" width="60%">
-						</div>
-						<h2>Strategic Thinking</h2>
-						<p></p>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.oracle.com/">
+                        <img src="images/Oracle-logo.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+                <div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>Full Stack Developer</h2>
+                        <p>April 2020 - April 2021</p>
+						<p>As a motivated and experienced full-stack developer, I worked in the field of regulatory reporting. I worked on projects for Mexico, Honduras, and Guatemala, exceeding expectations, and improving the system and user experience. Using Java and Primefaces framework.</p>
+                        <p>Java · SQL · JavaServer Faces (JSF) · Spring Framework · PrimeFaces · Angular</p>
 					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/analytics.svg" width="60%">
-						</div>
-						<h2>Analytical Skills</h2>
-						<p></p>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.gruposalinas.com/">
+                        <img src="images/Grupo-Salinas-logo.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+				<div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>Full Stack Developer</h2>
+                        <p>June 2019 - December 2021</p>
+						<p>As a full-stack developer, I was responsible for the analysis, design, and development of a new system for my institution's budget. The system was a complete solution for managing all of the institution's budgets, and it was developed using the MVC architectural pattern</p>
+                        <p>jQuery · Java · SQL · Bootstrap · HTML · JavaScript · ColdFusion · Hojas de estilos en cascada (CSS)</p>
 					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/team.svg" width="60%">
-						</div>
-						<h2>Speech Communication</h2>
-						<p></p>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.siga.ipn.mx/">
+                        <img src="images/CSII-logo-2.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Education</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="https://www.escom.ipn.mx/">
+                        <img src="images/IPN-logo.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+				<div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>Escuela Superior de Cómputo</h2>
+                        <h3>Computer Systems Engineer</h3>
+                        <p>2015 - 2019</p>
+						<p>During my undergraduate studies, I was a high-achieving student for nine semesters, consistently earning top grades and receiving several recognitions from my institution. I was also selected as one of two students from all institutions in Mexico to represent my country in Taiwan for six months as an exchange student. During my time in Taiwan, I participated in academic challenges and learned about different cultures. I am confident that my academic achievements and experiences have prepared me well for graduate school and beyond.</p>
 					</div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/laptop.svg" width="60%">
-						</div>
-						<h2>Software Development</h2>
-						<p></p>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.ntust.edu.tw/?Lang=en">
+                        <img src="images/ntust-logo-2.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+                <div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>National Taiwan University of Science and Technology</h2>
+                        <h3>Master Computer Science</h3>
+                        <p>2018 - 2019</p>
+						<p>I was a student ambassador in Taiwan for six months as an exchange student. During my time there, I participated in academic challenges and events with my master's degree colleagues, and took courses in <br/> Machine Learning || Data Science || Software Engineering. <br/> I learned a great deal about Taiwanese culture and society, and I made many lasting friendships.</p>
 					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<img src="./fonts/creativity.svg" width="60%">
-						</div>
-						<h2>Creativity</h2>
-						<p></p>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.cecyt8.ipn.mx/">
+                        <img src="images/IPN-logo.png" alt="Photo from Taiwan" class="img-fluid img-rounded fat-ab" style="width:300px">
+                    </a>
+                </div>
+				<div class="col-md-10">
+                    <div class="services-inner-box" style="text-align: justify;">
+						<h2>CECyT.8 "Narciso Bassols"</h2>
+                        <h3>Computer technician</h3>
+                        <p>2011 - 2014</p>
+						<p>During my technician's degree, I began my introduction to programming classes with C++, and I learned a great deal about the language. I then continued with several other languages, including C, Java, VB, and PHP. I also gained a strong understanding of both software and hardware. I developed several final projects, and my final project was a library system access control system for my institution.</p>
 					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                </div>
+            </div>
+        </div>
+    </div>
 	
-	<!---<div id="portfolio" class="section lb">
+	<!--<div id="certifications" class="section lb">
 		<div class="container">
-			<div class="section-title text-center">
-                <h3>Portfolio</h3>
+			<div class="section-title text-left">
+                <h3>Certifications / Courses</h3>
                 <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
             </div>
 			
-			<div class="gallery-menu text-center row">
+			<div class="gallery-menu row">
 				<div class="col-md-12">
-					<div class="button-group filter-button-group">
-						<button class="btn-new from-middle animated active" data-filter="*">All</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_a">Web Development</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_b">Creative Design</button>
-						<button class="btn-new from-middle animated" data-filter=".gal_c">Graphic Design</button>
+					<div class="button-group filter-button-group text-left">
+						<button class="active" data-filter="*">All</button>
+						<button data-filter=".gal_a">Web Development</button>
+						<button data-filter=".gal_b">Creative Design</button>
+						<button data-filter=".gal_c">Graphic Design</button>
 					</div>
 				</div>
 			</div>
 			
 			<div class="gallery-list row">
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
-					<div class="gallery-single spi-hr fix hover">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>App design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
-					<div class="gallery-single spi-hr fix">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>Logo design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
-					<div class="gallery-single spi-hr fix">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>App design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
-					<div class="gallery-single spi-hr fix">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>Logo design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
-					<div class="gallery-single spi-hr fix">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>App design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
 				</div>
 				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
-					<div class="gallery-single spi-hr fix">
+				<div class="col-md-3 col-sm-6 gallery-grid gal_c gal_a">
+					<div class="gallery-single fix">
 						<img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
-						<div class="text-hover">
-							<h3>Logo design</h3>
-							<h4>Lorem ipsum</h4>
-						</div>
 						<div class="img-overlay">
 							<a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
@@ -347,11 +332,169 @@
 			</div>
 			</div>
 		</div>
+	</div>-->
+
+    <div id="skills" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Skills</h3>
+            </div>
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-seo"></i>
+						</div>
+						<h2>Motivator & Leader</h2>
+						<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+					</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-development"></i>
+						</div>
+						<h2>Strategic Thinker</h2>
+					</div>
+                </div>
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process"></i>
+						</div>
+						<h2>Analytical</h2>
+					</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+                        <div class="ser-icon">
+                            <i class="flaticon-idea"></i>
+                        </div>
+                        <h2>Resilent</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+                        <div class="ser-icon">
+                            <i class="flaticon-idea-1"></i>
+                        </div>
+                        <h2>Self-discipline</h2>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-discuss-issue"></i>
+						</div>
+						<h2>Speech Communication</h2>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Projects</h3>
+            </div><!-- end title -->
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+                        <a href="https://github.com/DiegoArturoMG/Chaffing-And-Winnowing-Authentication">
+						    <div class="post-thumb">
+                                <img src="images/ch&w2.png" class="img-fluid" alt="post-img" />
+                                <div class="date">
+                                    <span>2019</span>
+                                    <span>Dec</span>
+                                </div>
+                            </div>
+                        </a>
+						<div class="post-info">
+							<h4>Chaffing and Winnowing Http Protocol Authentication</h4>
+                            <a href="documents/ArticuloTecnico_TT2018_B003.pdf"><b>Paper</b></a>
+                            <a href="documents/TT2018_B003.pdf"><b>Article</b></a>
+                            <div style="overflow-y: scroll; max-height:227px;">
+                                <p>Co-Creator of a prototype which provides auto login to users, in this way the users will use certificates (as a password) to get access to their web services by a Google Chrome extension. all of this is possible through a certification authority that provides the user certificate. Proposing the Chaffing and Winnowing as an authentication alternative where I was responsible for Backend and Frontend.</p>
+                                <br/><p>NodeJS - Javascript - MongoDB - HTML - CSS - JQuery - MySQL - Spring</p>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+                        <a href="https://github.com/DiegoArturoMG/Advanced-Musical-Study-Platform">
+                            <div class="post-thumb">
+                                <img src="images/DistribuidosProject.png" class="img-fluid" alt="post-img" />
+                                <div class="date">
+                                    <span>2019</span>
+                                    <span>May</span>
+                                </div>
+                            </div>
+                        </a>
+						<div class="post-info">
+							<h4>Advanced Musical Study Platform with <a href="https://github.com/cesanta/mongoose">Mongoose Library</a></h4>
+                            <div class="overflow-auto">
+                                <div style="overflow-y: scroll; max-height:175px;">
+                                    <p>Easy as Do-Re-Mi is an advanced music study application that harnesses the power of Mongoose, a robust network library for C/C++. Designed to facilitate in-depth musical analysis and education, Easy as Do-Re-Mi utilizes Mongoose's event-driven non-blocking APIs to seamlessly handle a variety of network protocols, including TCP, UDP, HTTP, WebSocket, MQTT, and more. By integrating Mongoose, Easy as Do-Re-Mi enables users to engage in real-time transmission and analysis of musical notes, whether they are capturing live performances, transcribing compositions, or exploring music theory concepts. With its scalability, flexibility, and performance, Easy as Do-Re-Mi, powered by Mongoose, offers a comprehensive solution for musicians, educators, and enthusiasts seeking to deepen their understanding and appreciation of music.</p>
+                                    <br/><p>C++ - Python - Javascript - HTML - CSS</p>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="images/dbFinalProject.png" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>2018</span>
+								<span>Dec</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Execution time of DBs Streaming vs. Relational Management System</h4>
+                            <a href="documents/DataBaseFinalProject.pdf"><b>Paper</b></a>
+                            <div style="overflow-y: scroll; max-height:187px;">
+                                <p>In our research, we undertook a meticulous examination of query execution durations within Data Stream Management Systems and Relational Database Systems. Specifically, our study focused on the comparative performance analysis of PostgreSQL's view, materialized view, and PipelineDB's continuous view. Our investigation unveiled that, within the delineated parameters of our study, the continuous view exhibited heightened efficacy in contrast to the PostgreSQL view. Furthermore, both materialized and continuous views demonstrated a sustained pattern of minimal query overhead throughout our rigorous evaluation.</p>
+                                <br/><p>PostgreSQL</p>
+                            </div>
+						</div>
+					</div>
+				</div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+                        <a href="https://github.com/DiegoArturoMG/ExchangeAdvising-Mobile-FinalProject">
+                            <div class="post-thumb">
+                                <img src="images/exchangeAdvising.png" class="img-fluid" alt="post-img" />
+                                <div class="date">
+                                    <span>2018</span>
+                                    <span>Aug</span>
+                                </div>
+                            </div>
+                        </a>
+						<div class="post-info">
+							<h4>Exchange Advising mobile application for international students</h4>
+                            <div style="overflow-y: scroll; max-height:230px;">
+                                <p>Exchange Advising, built with Kotlin, is a specialized mobile app crafted for students planning to embark on international exchange programs. Its core functionality allows users to effortlessly send messages to every registered student within a particular school or institution, serving as a bridge for prospective classmates to connect even before arrival. By fostering communication among students bound for the same destination, Exchange Advising enhances the exchange experience, facilitating the exchange of information, tips, and camaraderie.</p>
+                                <br/><p>Kotlin</p>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 	</div>
 	
-	 <div id="testimonials" class="section wb">
+	<!--<div id="testimonials" class="section wb">
         <div class="container">
-            <div class="section-title text-center">
+            <div class="section-title text-left">
                 <h3>Testimonials</h3>
                 <p>We thanks for all our awesome testimonials! There are hundreds of our happy customers! </p>
             </div>
@@ -361,13 +504,12 @@
                     <div class="testi-carousel owl-carousel owl-theme">
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Wonderful Support!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
                                 <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
+                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
+                                <h4>James Fernando <small>- Manager of Racer</small></h4>
                             </div>
                             
                         </div>
@@ -375,13 +517,12 @@
 
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Awesome Services!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
                                 <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
+                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
+                                <h4>Jacques Philips <small>- Designer</small></h4>
                             </div>
                             
                         </div>
@@ -389,26 +530,24 @@
 
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Great & Talented Team!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
                                 <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
+                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
+                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
                             </div>
                             
                         </div>
                         
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Wonderful Support!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
                                 <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid">
-                                <h4>James Fernando </h4>
+                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
+                                <h4>James Fernando <small>- Manager of Racer</small></h4>
                             </div>
                             
                         </div>
@@ -416,13 +555,12 @@
 
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Awesome Services!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
                                 <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid">
-                                <h4>Jacques Philips </h4>
+                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
+                                <h4>Jacques Philips <small>- Designer</small></h4>
                             </div>
                             
                         </div>
@@ -430,13 +568,12 @@
 
                         <div class="testimonial clearfix">
                             <div class="desc">
-                                <h3> Great & Talented Team!</h3>
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
                                 <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-								<i class="fa fa-quote-right"></i>
                             </div>
                             <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid">
-                                <h4>Venanda Mercy </h4>
+                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
+                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
                             </div>
                             
                         </div>
@@ -444,155 +581,15 @@
                 </div>
             </div>
         </div>
-	</div>
-	--->	
-	
-	<div id="blog" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-                <h3>Let's take a look at some of my own Projects</h3>
-                <!--<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>-->
-            </div><!-- end title -->
-			
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<figure class="snip1401">
-						<img src="images/ch&w2.png" alt="" />
-						<figcaption>
-							<h4>Chaffing & Winnowing Http Protocol Authentication</h4>
-							<ul>
-                                <li>Dec 2019</li>
-                            </ul>
-						</figcaption>
-						<i class="ion-ios-home-outline"></i>
-						<a href="https://github.com/DiegoArturoMG/ChaffingAndWinnowing"></a>
-					</figure>
-				</div>
-				<div class="col-md-8 col-sm-6 col-lg-8" style="text-align: justify;">
-					<h3>Chaffing and Winnowing Http Protocol Authentication</h3>
-					<p>Co-Creator of a prototype which provides auto login to users, in this way the users will use certificates (as a
-					password) to get access to their web services by a Google Chrome extension. all of this is possible through a
-					certification authority that provides the user certificate.
-					Proposing the Chaffing and Winnowing as an authentication alternative where I was responsible for Backend and Frontend.<br/>Using tools as:</p>
-					<p>NodeJS  -  Javascript  -  MongoDB  -  HTML  -  CSS  -  JQuery  -  MySQL  -  Spring</p>
-					<div class="col-md-12 col-sm-12 col-lg-12" style="text-align: center;">
-						<a href="./documents/ArticuloTecnico_TT2018_B003.pdf" target="_blank" style="margin-right: 5%;" title="1MB">
-							<button type="button" style="cursor: pointer;">¡Download paper!</button>
-						</a>
-						<a href="./documents/TT2018_B003.pdf" target="_blank" style="margin-left: 5%;" title="6MB">
-							<button type="button" style="cursor: pointer;">¡Download article!</button>
-						</a>
-					</div>
-				</div>
-				
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<figure class="snip1401">
-						<img src="images/DistribuidosProject.png" alt="" />
-						<figcaption>
-							<h4>Advanced Musical Study Platform with Mongoose Library</h4>
-							<ul>
-                                <li>May 2019</li>
-                            </ul>
-						</figcaption>
-						<i class="ion-ios-home-outline"></i>
-						<a href="https://github.com/DiegoArturoMG/DistribuidosFinalProject"></a>
-					</figure>
-				</div>
-				<div class="col-md-8 col-sm-6 col-lg-8" style="text-align: justify;">
-					<h3>Advanced Musical Study Platform with <a href="https://github.com/cesanta/mongoose"><b>Mongoose Library</b></a></h3>
-					<p>Easy as Do-Re-Mi is an advanced music study application that harnesses the power of Mongoose, a robust network library for C/C++. Designed to facilitate in-depth musical analysis and education, Easy as Do-Re-Mi utilizes Mongoose's event-driven non-blocking APIs to seamlessly handle a variety of network protocols, including TCP, UDP, HTTP, WebSocket, MQTT, and more. By integrating Mongoose, Easy as Do-Re-Mi enables users to engage in real-time transmission and analysis of musical notes, whether they are capturing live performances, transcribing compositions, or exploring music theory concepts. With its scalability, flexibility, and performance, Easy as Do-Re-Mi, powered by Mongoose, offers a comprehensive solution for musicians, educators, and enthusiasts seeking to deepen their understanding and appreciation of music.</p>
-					<p>C++ - Python - Javascript - HTML - CSS</p>
-				</div>
-				
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<figure class="snip1401">
-						<img src="images/dbFinalProject.png" alt="" />
-						<figcaption>
-							<h4>Comparison query execution time of Streaming Database vs.
-								Relational Database</h4>
-							<ul>
-                                <li>Dec 2018</li>
-                            </ul>
-						</figcaption>
-						<i class="ion-ios-home-outline"></i>
-					</figure>
-				</div>
-				<div class="col-md-8 col-sm-6 col-lg-8" style="text-align: justify;">
-					<h3>Comparison of query execution time between Streaming Database and
-						Relational Database Management System</h3>
-					<p>In our research, we undertook a meticulous examination of query execution durations within Data Stream Management Systems 
-						and Relational Database Systems. Specifically, our study focused on the comparative performance analysis of PostgreSQL's view, 
-						materialized view, and PipelineDB's continuous view. Our investigation unveiled that, 
-						within the delineated parameters of our study, the continuous view exhibited heightened efficacy in contrast to the PostgreSQL view. 
-						Furthermore, both materialized and continuous views demonstrated a sustained pattern of minimal query overhead throughout 
-						our rigorous evaluation.
-					<p>PostgreSQL</p>
-					<div class="col-md-12 col-sm-12 col-lg-12" style="text-align: center;">
-						<a href="./documents/DataBaseFinalProject.pdf" target="_blank" style="margin-right: 5%;" title="1MB">
-							<button type="button" style="cursor: pointer;">¡Download paper!</button>
-						</a>
-					</div>
-				</div>
-				
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<figure class="snip1401">
-						<img src="images/exchangeAdvising.png" alt="" />
-						<figcaption>
-							<h4>Exchange Advising mobile application</h4>
-							<ul>
-                                <li>Aug 2018</li>
-                            </ul>
-						</figcaption>
-						<i class="ion-ios-home-outline"></i>
-						<a href="https://github.com/DiegoArturoMG/ExchangeAdvising-Mobile-FinalProject"></a>
-					</figure>
-				</div>
-				<div class="col-md-8 col-sm-6 col-lg-8" style="text-align: justify;">
-					<h3>Exchange Advising mobile application for international students</h3>
-					<p>Exchange Advising, built with Kotlin, is a specialized mobile app crafted for students planning 
-						to embark on international exchange programs. Its core functionality allows users to effortlessly 
-						send messages to every registered student within a particular school or institution, serving as a 
-						bridge for prospective classmates to connect even before arrival. By fostering communication among 
-						students bound for the same destination, Exchange Advising enhances the exchange experience, 
-						facilitating the exchange of information, tips, and camaraderie."</p>
-					<p>Kotlin</p>
-				</div>
-				
-			</div>
-		</div>
-		<br/>
-	</div>
+    </div>-->
 
     <div id="contact" class="section db">
         <div class="container">
-            <div class="section-title text-center">
-                <h3>Keep in touch!</h3>
-                <p>I'm willing to discuss new projects or jobs. Don't hesitate to contact me.</p>
-			</div>
-			
-			<div class="section-title text-center">
-				<div class="row">
-					<div class="col-md-6">
-						<img src="./fonts/phone.svg" width="10%" />
-						<p style="font-size: x-large;">(+52) 55 34 79 81 93</p>
-					</div>
-					<div class="col-md-6">
-						<img src="./fonts/gmail.svg" width="10%" />
-						<p style="font-size: x-large;">diegoarturo2121@gmail.com</p>
-					</div>
-				</div>
-            </div>
+            <div class="section-title text-left">
+                <h3>Contact</h3>
+            </div><!-- end title -->
 
-            <!---<div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
                         <div id="message"></div>
@@ -621,23 +618,29 @@
 								<div class="clearfix"></div>
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn btn-new from-middle animated" data-text="Send Message" type="submit">Send Message</button>
+									<button id="sendMessageButton" class="sim-btn btn-hover-new" data-text="Send Message" type="submit">Send Message</button>
 								</div>
 							</div>
 						</form>
                     </div>
-                </div>
-            </div>--->
-        </div>
-    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <!--<p class="footer-company-name">All Rights Reserved. &copy; 2020--> 
-					<p class="footer-company-name">Design By : 
-					<a href="https://github.com/DiegoArturoMG">Diego Arturo MG</a></p>
+                    <!--<p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Faq</a>
+                        <a href="#">Contact</a>
+                    </p>-->
+                    <p class="footer-company-name" style="color: white;">All Rights Reserved. &copy; 2024. Design By : DiegoArturoMG</p>
                 </div>
             </div>
         </div><!-- end container -->
@@ -651,12 +654,13 @@
 	<script src="js/jquery.mobile.customized.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script> 
 	<script src="js/parallaxie.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/animated-slider.js"></script>
+	<script src="js/headline.js"></script>
 	<!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
 </body>
 </html>
