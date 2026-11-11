@@ -1,0 +1,89 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[left=0.7in,right=0.7in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lmodern}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=*,nosep,topsep=2pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+\newcommand{\role}[3]{\textbf{#1 --- #2}\hfill\textit{#3}\par}
+
+% Public version (website): set to \publictrue to hide the phone number
+\newif\ifpublic
+\publicfalse
+
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Diego Arturo Morales González}\\[4pt]
+{\large Senior Software Engineer | Cloud \& Intelligent Systems}\\[3pt]
+Mexico City, Mexico \ifpublic\else| +52 55 3479 8193 \fi| \href{mailto:diegoarturo2121@gmail.com}{diegoarturo2121@gmail.com}\\[2pt]
+\href{https://www.linkedin.com/in/diegoarturomg/}{linkedin.com/in/diegoarturomg} |
+\href{https://github.com/DiegoArturoMG}{github.com/DiegoArturoMG} |
+\href{https://diegoarturomg.github.io/}{diegoarturomg.github.io}
+\end{center}
+
+\section{Professional Summary}
+Senior Software Engineer with 7+ years of experience in backend microservices, cloud systems, and large-scale data processing. Pursuing a master's degree in Applied AI at Tecnológico de Monterrey to design and implement scalable intelligent systems on cloud-native architectures.
+
+\section{Technical Skills}
+\textbf{Cloud \& DevOps:} Oracle Cloud Infrastructure (OCI), Kubernetes, Docker, Terraform, Jenkins, Artifactory/JFrog, Git.\\
+\textbf{Backend:} Java, Spring Boot, Microservices, Apache Kafka, Python, JavaScript, Oracle APEX.\\
+\textbf{Data \& Search:} SQL, PL/SQL, Oracle Database, NoSQL, Elasticsearch, OpenSearch.\\
+\textbf{Observability \& Testing:} Prometheus, Grafana, Kibana, JUnit, Mockito, JaCoCo.\\
+\textbf{AI / ML:} Python, pandas, scikit-learn, Jupyter.\\ % <-- ADJUST to the tools you actually use in the master's
+\textbf{Languages:} Spanish (native), English (professional working proficiency). % <-- ADJUST level if needed
+
+\section{Professional Experience}
+\role{Senior Software Engineer}{Oracle}{May 2021 -- Present}
+\begin{itemize}
+\item Designed and delivered backend microservices for Oracle CRM, collaborating with teams across the US, India, and Hungary.
+\item Developed Elastic Stack workflows supporting nearly \textbf{100 million documents per index}.
+\item Optimized and automated indexing workflows, reducing processing time by \textbf{60\%}.
+\item Developing a microservices-based platform to improve component reuse across global sites and data centers, avoiding unnecessary purchases; automated component tracking and inventory control with \textbf{Oracle APEX}.
+\item Monitored Kubernetes clusters with Prometheus and Grafana and analyzed logs in Kibana to diagnose production issues; increased test coverage to as high as \textbf{80\%} (JUnit, JaCoCo, Mockito).
+\end{itemize}
+
+\role{Full Stack Developer}{Grupo Salinas}{April 2020 -- April 2021}
+\begin{itemize}
+\item Delivered regulatory reporting features using Java EE, PrimeFaces, and JSF for Mexico, Guatemala, and Honduras.
+\item Automated large Excel file processing and loading, eliminating manual work in selected workflows.
+\end{itemize}
+
+\role{Full Stack Developer}{CSII, National Polytechnic Institute}{June 2019 -- January 2020}
+\begin{itemize}
+\item Developed \href{https://www.siga.ipn.mx/}{Intranet SIG@} features supporting institutional budgeting and allocation of funds.
+\item Automated budgeting workflows using MVC, ColdFusion, JavaScript, jQuery, Java, and SQL.
+\end{itemize}
+
+% --- Uncomment and fill in when you have an AI project (master's or personal) ---
+% \section{Selected Projects}
+% \textbf{Project name} --- Python, scikit-learn, OCI\hfill\textit{2026}\\
+% One line: problem, what you built, measurable result. \href{https://github.com/DiegoArturoMG/...}{GitHub}
+
+\section{Education}
+\textbf{Tecnológico de Monterrey}\hfill\textit{September 2026 -- Present}\\
+Master's Degree in Applied Artificial Intelligence (in progress)
+
+\textbf{ESCOM --- National Polytechnic Institute}\hfill\textit{August 2015 -- December 2019}\\
+Bachelor of Engineering in Computer Systems
+
+\textbf{Taiwan Tech --- NTUST}\hfill\textit{August 2018 -- January 2019}\\
+Academic Exchange --- Graduate coursework in Computer Science and Information Engineering
+
+\section{Certifications \& Training}
+{\small
+\href{https://catalog-education.oracle.com/pls/certview/sharebadge?id=0BF893A36BB86FB4B248C61CB68D8E9134C7AD56DE531C8E2B84450E03023E85}{\textbf{OCI 2023 Certified Architect Associate}} --- Oracle\hfill\textit{December 2023}\\
+\href{https://catalog-education.oracle.com/pls/certview/sharebadge?id=F1A5E07D4CFCFA0A93CBE1D9AFF3EE625EBD2CBB9A04A80828223B67F71EA1D2}{\textbf{OCI 2023 Certified Foundations Associate}} --- Oracle\hfill\textit{August 2023}\\
+\href{https://kodekloud.com/certificate-verification/2D064B20CEA5-2D06451C4AC8-2D0644EDBDFD}{\textbf{CKAD Preparation Course}} --- KodeKloud, certificate of completion\hfill\textit{June 2024}\\
+\href{https://kodekloud.com/certificate-verification/2D064B20CEA5-2D06452AEED5-2D0644EDBDFD/}{\textbf{Terraform Basics Training Course}} --- KodeKloud\hfill\textit{October 2023}\\
+\href{https://drive.google.com/open?id=15vOyN0MEt5CZ6QReEKtk0ulTpDHviOR2}{\textbf{GBS Academy: Microservices}} --- IBM\hfill\textit{September 2019}
+}
+
+\end{document}
